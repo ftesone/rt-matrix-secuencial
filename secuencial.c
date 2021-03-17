@@ -27,7 +27,7 @@ int main (int argc, char *argv[]) {
     }
 
     clock_t end = clock();
-    printf("Tiempo: %.4f\n", ((double)(end-begin)/CLOCKS_PER_SEC));
+    printf("Tiempo con matrices de %d^2: %.4fs\n", N, ((double)(end-begin)/CLOCKS_PER_SEC));
 
     free(a);
     free(b);
