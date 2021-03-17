@@ -2,8 +2,6 @@
 #include <stdio.h>
 #include <time.h>
 
-#define N 1024
-
 int main (int argc, char *argv[]) {
     double *a, *b, *c;
     a = (double *) malloc(sizeof(double) * N * N);
